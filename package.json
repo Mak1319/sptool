@@ -1,0 +1,19 @@
+{
+  "name": "spck-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "bin":{
+  	"sptool":"./main.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "node-apk-parser": "^0.2.3"
+  }
+}
